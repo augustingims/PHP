@@ -1,0 +1,8 @@
+<?php 
+$emetteur = "augustingims18@gmail.com";
+$recepteur =  $_POST['adresse'];
+$object = $_POST['object'];
+$message = $_POST['message'];
+
+mail();
+?>
